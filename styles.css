@@ -33,7 +33,7 @@ a {
       
 /* --- New Top Bar Styles --- */
 .top-bar {
-    background: linear-gradient(115deg, #ffffff 0%, #d2d2d2 100%); /* Matches your scrolled navbar color */
+    background: linear-gradient(115deg, #ffffff 0%, #dedede 100%); /* Matches your scrolled navbar color */
     color: white;
     font-size: 0.60rem;
     padding: 8px 0;
@@ -65,7 +65,7 @@ a {
     border: 1.5px solid rgba(12, 25, 113, 0.335); /* Subtle white border */
     padding: 4px 15px;                          /* Space inside the border */
     border-radius: 50px;                        /* Rounds the edges into a pill shape */
-    background: linear-gradient(115deg, #ffffff 0%, #d2d2d2 100%); /* Very faint background fill */
+    background: linear-gradient(115deg, #ffffff 0%, #dedede 100%); /* Very faint background fill */
 }
 
 .top-bar-link:hover {
@@ -82,7 +82,7 @@ a {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: linear-gradient(115deg, #ffffff 0%, #d2d2d2 100%);
+    background: linear-gradient(115deg, #ffffff 0%, #dedede 100%);
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
   
@@ -92,7 +92,7 @@ a {
 .navbar.scrolled {
     border-bottom: solid 1.5px white;
     top: 35px; /* Keep it below the top bar even when scrolling */
-   background: linear-gradient(115deg, #1a2429 0%, #0f1216 100%);
+    background: linear-gradient(115deg, #ffffff 0%, #e2e2e2 100%);
 }
 
 /* --- Responsive fix for mobile --- */
