@@ -216,7 +216,7 @@ a {
         .next-to-burger{
             display: block;
             font-size: 0.65rem;
-            padding-bottom: 0.4rem;
+            padding-bottom: 0.2rem;
             color: rgba(16, 20, 45, 0.817);
             font-weight: 620;
         }
@@ -404,8 +404,9 @@ a {
     }
 
     .hero-button {
-        padding: 0.9rem 1.8rem;
-        font-size: 0.95rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.60rem;
+        font-weight: 750;
     }
 }
 
