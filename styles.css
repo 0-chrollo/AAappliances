@@ -35,7 +35,7 @@ a {
 .top-bar {
     background: linear-gradient(115deg, #ffffff 0%, #dedede 100%); /* Matches your scrolled navbar color */
     color: white;
-    font-size: 0.55rem;
+    font-size: 0.60rem;
     padding: 8px 0;
     position: fixed; /* Keep it fixed at the top */
     top: 0;
