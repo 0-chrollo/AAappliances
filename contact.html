@@ -359,21 +359,27 @@
                     </div>
         
                     <!-- CONTACT FORM -->
+                    <!-- CONTACT FORM -->
                     <div class="contact-form">
                         <h2>Request a Quote</h2>
-                        <form>
-        
+                        <form action="https://formsubmit.co/mkohlakalilucas7@gmail.com" method="POST">
+                    
+                            <!-- FormSubmit Config -->
+                            <input type="hidden" name="_subject" value="New Quote Request!">
+                            <input type="hidden" name="_next" value="https://www.aaappliancespares.co.za/contact.html">
+                            <input type="hidden" name="_captcha" value="false">
+                    
                             <div class="form-group">
-                                <input type="text" id="fullname" placeholder="Full Name" required>
+                                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
                             </div>
-        
+                    
                             <div class="form-group">
-                                <input type="tel" id="phone" placeholder="Phone Number" required>
+                                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
                             </div>
-        
+                    
                             <div class="form-group">
                                 <label for="service">What service do you need?</label>
-                                <select id="service" required>
+                                <select id="service" name="service" required>
                                     <option value="">Select a service...</option>
                                     <option value="aircon-installation">Air Conditioner Installation</option>
                                     <option value="aircon-supply">Air Conditioner Supply</option>
@@ -383,15 +389,15 @@
                                     <option value="other">Other / Enquiry</option>
                                 </select>
                             </div>
-        
+                    
                             <div class="form-group">
-                                <input type="text" id="location" placeholder="Your Location" required>
+                                <input type="text" id="location" name="location" placeholder="Your Location" required>
                             </div>
-        
+                    
                             <div class="form-group">
-                                <textarea id="message" placeholder="Tell us what you need (e.g. size of space, type of system, or any questions)"></textarea>
+                                <textarea id="message" name="message" placeholder="Tell us what you need (e.g. size of space, type of system, or any questions)"></textarea>
                             </div>
-        
+                    
                             <button type="submit" class="submit-btn">
                                 Send Message
                                 <svg style="width: 18px; height: 18px; margin-right: 8px; vertical-align: middle;" viewBox="0 0 24 24" fill="white">
@@ -400,6 +406,18 @@
                             </button>
                         </form>
                     </div>
+                   <!-- CONTACT FORM -->
+                   <!-- CONTACT FORM -->
+
+
+
+
+
+
+
+
+
+
         
                 </div>
             </div>
