@@ -471,8 +471,8 @@ a {
     /* Bottom Section */
     .bottom-section {
         width: 100%;
-        height: 20vh;
-        background-image: linear-gradient(rgba(5, 14, 47, 0.862), rgba(4, 6, 45, 0.768)), url('images/homea.webp');
+        height: 24vh;
+        background-image: linear-gradient(rgba(5, 14, 47, 0.431), rgba(4, 6, 45, 0.768)), url('images/airo3.jpg');
         background-size: cover;
         background-position: center;
         backdrop-filter: blur(4px);
