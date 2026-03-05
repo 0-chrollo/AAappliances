@@ -435,18 +435,20 @@
   }
 
   .avatar {
-      width: 3rem;  /* w-12 */
-      height: 3rem; /* h-12 */
+      width: 2.5rem;  /* w-12 */
+      height: 2.5rem; /* h-12 */
       border-radius: 9999px; /* rounded-full */
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
       font-weight: 700;
-      font-size: 1.25rem; /* text-xl */
+      font-size: 1rem; /* text-xl */
   }
   .avatar-purple { background-color: #7c3aed; }
+  .avatar-gold { background-color: #94990b; }
   .avatar-teal { background-color: #14b8a6; }
+  .avatar-green { background-color: #052689; }
   .avatar-red { background-color: #ef4444; }
   .avatar-blue { background-color: #3b82f6; }
 
@@ -460,7 +462,7 @@
   }
 
   .review-date {
-      font-size: 0.875rem; /* text-sm */
+      font-size: 0.800rem; /* text-sm */
       color: #6b7280; /* text-gray-500 */
   }
   
@@ -472,7 +474,7 @@
       display: flex;
       align-items: center;
       gap: 0.5rem; /* space-x-2 */
-      font-size: 0.875rem; /* text-sm */
+      font-size: 0.800rem; /* text-sm */
       font-weight: 500; /* font-medium */
       color: #090b2f; /* text-green-600 */
   }
@@ -488,7 +490,8 @@
 
   .review-text {
       color: #4b5563; /* text-gray-600 */
-      line-height: 1.625; /* leading-relaxed */
+      line-height: 1.625;
+      font-size: 0.850rem; /* leading-relaxed */
   }
   
   .read-more {
@@ -505,9 +508,9 @@
   .nav-btn {
       position: absolute;
       top: 50%;
-      width: 3rem;  /* w-12 */
-      height: 3rem; /* h-12 */
-      background-color:  #333;
+      width: 2rem;  /* w-12 */
+      height: 2rem; /* h-12 */
+      background-color:  #040720e0;
       border: none;
       border-radius: 50%;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -562,7 +565,7 @@
   /* --- Responsive Design (Media Queries) --- */
   @media (min-width: 768px) { /* md breakpoint */
       .review-card {
-          width: 40%; /* A bit less than 5/12 to account for gap */
+          width: 35%; /* A bit less than 5/12 to account for gap */
       }
   }
 
@@ -658,7 +661,7 @@
       }
       
       .google-logo {
-          font-size: 16px;
+          font-size: 11px;
           font-weight: 500;
           color: #333;
           margin-right: 8px;
